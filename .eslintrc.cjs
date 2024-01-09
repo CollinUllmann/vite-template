@@ -16,5 +16,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'react/prop-types': 'off', // <-- Add this line
+
   },
+  ignorePatterns: ['dist', 'node_modules'],
 }
